@@ -15,3 +15,4 @@ public class stoneOnTheTable {
         input.close();
     }
 }
+
