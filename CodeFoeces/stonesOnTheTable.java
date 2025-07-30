@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class stoneOnTheTable {
+public class stonesOnTheTable {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
@@ -15,4 +15,3 @@ public class stoneOnTheTable {
         input.close();
     }
 }
-
