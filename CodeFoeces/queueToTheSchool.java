@@ -11,7 +11,7 @@ public class queueToTheSchool {
         for(int Second = 0; Second < t; Second ++){
             char[] nextQueue = queue.clone();
 
-            for(int i = 0; i < n; i++){
+            for(int i = 0; i < n-1; i++){
                 if(queue[i] == 'B' && queue[i + 1] == 'G'){
                     nextQueue[i] = 'G';
                     nextQueue[i + 1] = 'B';
