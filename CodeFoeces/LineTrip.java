@@ -15,15 +15,15 @@ public class LineTrip {
                 int gap = arr[i] - arr[i - 1];
                 if(gap > maxGap){
                     maxGap = gap;
-                }
-                int lastGap = 2*(x - arr[n-1]);
-                if(lastGap > maxGap){
-                    maxGap = lastGap;
-                }
-                
+                }  
+            }
+            int lastGap = 2 * (x - arr[n - 1]);
+            if(lastGap > maxGap){
+                maxGap = lastGap;
             }
             System.out.println(maxGap);
         }
         input.close();
+        
     }
 }
